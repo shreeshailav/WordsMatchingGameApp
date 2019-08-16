@@ -5,7 +5,7 @@
 //  Created by hasher on 08/08/19.
 //  Copyright © 2019 hasher. All rights reserved.
 //
-
+// created to maintain all players information using struct
 import Foundation
 
 struct PlayerInfo {
