@@ -36,4 +36,13 @@ struct PlayerInfo {
         self.rank = rank
         return true
     }
+    
+    
+    mutating func validatename() -> Bool {
+        if self.name.count > 0{
+            return true
+        }
+        return false
+    }
+    
 }

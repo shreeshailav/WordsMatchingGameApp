@@ -15,6 +15,7 @@
 		AE8F0CBC22FC10A1009121B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE8F0CBA22FC10A1009121B7 /* LaunchScreen.storyboard */; };
 		AE8F0CC722FC10A1009121B7 /* FirstAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8F0CC622FC10A1009121B7 /* FirstAppTests.swift */; };
 		AE8F0CD222FC10A1009121B7 /* FirstAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8F0CD122FC10A1009121B7 /* FirstAppUITests.swift */; };
+		AEBC9162230A7F900061BBA0 /* PlayerInfoTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBC9161230A7F900061BBA0 /* PlayerInfoTest.swift */; };
 		AEE495D422FD37BC00E92722 /* wordsdict.json in Resources */ = {isa = PBXBuildFile; fileRef = AEE495D322FD37BC00E92722 /* wordsdict.json */; };
 		AEE495DA22FD5C4400E92722 /* PlayersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE495D922FD5C4400E92722 /* PlayersViewController.swift */; };
 		AEE495DC22FD6FE700E92722 /* PSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE495DB22FD6FE700E92722 /* PSelectionViewController.swift */; };
@@ -56,6 +57,7 @@
 		AE8F0CCD22FC10A1009121B7 /* FirstAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirstAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE8F0CD122FC10A1009121B7 /* FirstAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstAppUITests.swift; sourceTree = "<group>"; };
 		AE8F0CD322FC10A1009121B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEBC9161230A7F900061BBA0 /* PlayerInfoTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerInfoTest.swift; sourceTree = "<group>"; };
 		AEE495D322FD37BC00E92722 /* wordsdict.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = wordsdict.json; path = "../../../Downloads/english-words-master 2/wordsdict.json"; sourceTree = "<group>"; };
 		AEE495D922FD5C4400E92722 /* PlayersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayersViewController.swift; sourceTree = "<group>"; };
 		AEE495DB22FD6FE700E92722 /* PSelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PSelectionViewController.swift; sourceTree = "<group>"; };
@@ -160,6 +162,7 @@
 			children = (
 				AE8F0CC622FC10A1009121B7 /* FirstAppTests.swift */,
 				AE8F0CC822FC10A1009121B7 /* Info.plist */,
+				AEBC9161230A7F900061BBA0 /* PlayerInfoTest.swift */,
 			);
 			path = FirstAppTests;
 			sourceTree = "<group>";
@@ -337,6 +340,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AEBC9162230A7F900061BBA0 /* PlayerInfoTest.swift in Sources */,
 				AE8F0CC722FC10A1009121B7 /* FirstAppTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

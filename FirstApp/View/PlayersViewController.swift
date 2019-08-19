@@ -71,7 +71,7 @@ class PlayersViewController: UIViewController {
                  
                 viewControllerB.playernamearray = playernamearray
                 
-        } 
+            }
         }
     }
     
