@@ -30,8 +30,8 @@ class PlayersViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        player3name.isHidden = true
-        player4name.isHidden = true
+        //player3name.isHidden = true
+        //player4name.isHidden = true
         
         
         
