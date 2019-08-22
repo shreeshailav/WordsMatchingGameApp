@@ -20,6 +20,7 @@ struct PlayerInfo {
         self.score = 0
         self.status = "qualified"
     }
+    
     mutating func updatescore(score : Int) -> Bool{
         self.score = score
         return true

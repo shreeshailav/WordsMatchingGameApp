@@ -18,6 +18,8 @@ class PlayerMove {
         self.currentplayer = player[0]
         //print(self.players.count)
     }
+    deinit { print("\(self.currentplayer.name) is being deinitialized") }
+
     func nextmove(rank : Int , players : [PlayerInfo]) -> PlayerInfo {
         self.players = players
         var rk = rank

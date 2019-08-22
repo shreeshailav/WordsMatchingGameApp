@@ -22,5 +22,8 @@ class PlayerInfoTest: XCTestCase {
     func testvalidateplayerinfo() {
         
     }
+    func testvalidate()  {
+        //
+    }
 }
 

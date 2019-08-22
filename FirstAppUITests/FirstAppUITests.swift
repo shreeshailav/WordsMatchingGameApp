@@ -49,6 +49,12 @@ class FirstAppUITests: XCTestCase {
         app.buttons["rankgenbtn"].tap()
         app.buttons["gamepagenavbtn"].tap()
         
+        
+        app.textFields["userinput"].tap()
+        app.textFields["userinput"].typeText("H")
+        app.buttons["setuserinput"].tap()
+        
+        
         //app.staticTexts["Get as close as you can to: "].tap()
         
         // Use recording to get started writing UI tests.

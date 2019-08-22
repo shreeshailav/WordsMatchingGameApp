@@ -33,10 +33,16 @@ class PlayersViewController: UIViewController {
         player3name.isHidden = true
         player4name.isHidden = true
         
+        
+        
         player1name.setBottomBorderOnlyWith(color: UIColor.gray.cgColor)
         player2name.setBottomBorderOnlyWith(color: UIColor.gray.cgColor)
         player3name.setBottomBorderOnlyWith(color: UIColor.gray.cgColor)
         player4name.setBottomBorderOnlyWith(color: UIColor.gray.cgColor)
+        
+        self.player3btn.backgroundColor = UIColor.lightGray
+        self.player3btn.setTitleColor(.white, for: .normal)
+
 
         
         // Do any additional setup after loading the view.
@@ -82,14 +88,42 @@ class PlayersViewController: UIViewController {
             numberofplayer = 2
             player3name.isHidden = true
             player4name.isHidden = true
+            
+            self.player1btn.backgroundColor = UIColor.lightGray
+            self.player1btn.setTitleColor(.white, for: .normal)
+            self.player2btn.backgroundColor = UIColor.white
+            self.player2btn.setTitleColor(.black, for: .normal)
+            self.player3btn.backgroundColor = UIColor.white
+            self.player3btn.setTitleColor(.black, for: .normal)
+
+            
         case "3 Players":
             numberofplayer = 3
             player3name.isHidden = false
             player4name.isHidden = true
+            
+            self.player2btn.backgroundColor = UIColor.lightGray
+            self.player2btn.setTitleColor(.white, for: .normal)
+            
+            self.player1btn.backgroundColor = UIColor.white
+            self.player1btn.setTitleColor(.black, for: .normal)
+            self.player3btn.backgroundColor = UIColor.white
+            self.player3btn.setTitleColor(.black, for: .normal)
+
+            
         case "4 Players":
             numberofplayer = 4
             player3name.isHidden = false
             player4name.isHidden = false
+            
+            self.player3btn.backgroundColor = UIColor.lightGray
+            self.player3btn.setTitleColor(.white, for: .normal)
+            
+            self.player2btn.backgroundColor = UIColor.white
+            self.player2btn.setTitleColor(.black, for: .normal)
+            self.player1btn.backgroundColor = UIColor.white
+            self.player1btn.setTitleColor(.black, for: .normal)
+
         default:
             numberofplayer = 2
         }
